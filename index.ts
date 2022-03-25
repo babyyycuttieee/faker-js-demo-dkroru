@@ -16,7 +16,8 @@ appDiv.innerHTML = `
 <h1>Faker Demo</h1>
 <br>
 <b>Name:</b> ${fullName} <br>
-<b>City:</b>${address}
+<b>City:</b>${address}<br>
+<b>Avatar URL:</b>${avatarUrl}
 <div class="card">
   <div class="card__image">
     <img src="${natureImageUrl}" alt="Background image for ${fullName}"/>
