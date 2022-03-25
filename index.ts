@@ -26,6 +26,8 @@ appDiv.innerHTML = `
     <img src="${avatarUrl}" alt="Avatar image of ${fullName}"/>
   </div>
   <div class="card__body">
+  <b>Name:</b> ${fullName} <br>
+  <b>City:</b>${address}<br>
   <b>zh_CN Name:</b> ${zh_CN_fullName}
   </div>  
 </div>
